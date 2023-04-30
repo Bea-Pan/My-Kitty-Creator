@@ -24,7 +24,6 @@ body {
 
 .form-container{
     border: solid 10px #d38047;
-    opacity: 95%;
     /* background-color: #ffbda8; */
     background-color: #ffccc3;
     height: 85%;
@@ -135,7 +134,8 @@ input[type=submit]:hover{
 /* MOBILE */
 @media only screen and (max-width:700px){
     body {
-        background-size: cover;
+        background-size: contain;
+        background-repeat: repeat-y;
     }
 
     h1 {
@@ -173,7 +173,8 @@ input[type=submit]:hover{
     }
 
     body {
-        background-size: cover;
+        background-size: contain;
+        background-repeat: repeat-z;
     }
 
 }

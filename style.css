@@ -24,7 +24,7 @@ body {
 
 .form-container{
     border: solid 10px #d38047;
-    
+    opacity: 95%;
     /* background-color: #ffbda8; */
     background-color: #ffccc3;
     height: 85%;
@@ -172,7 +172,9 @@ input[type=submit]:hover{
         width: 80%;
     }
 
-  
+    body {
+        background-size: cover;
+    }
 
 }
 

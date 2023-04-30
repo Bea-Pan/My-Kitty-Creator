@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Build-My-Kitty</title>
+</head>
+<body>
+    <div class="form-container">
+        <p class="lang">
+            <span>EN </span>
+            <span>PL </span>
+            <span>ES </span>
+            <span>RU </span>
+        </p>
+        <h1>Create your own, customized cat!</h1>
+     
+        <form action="my-kitty.html" method="get">
+            <h2>First, tell us your name</h2>
+            <p>(So your kitty also knows who you are!)</p>
+            <label for="name"></label>
+            <input  id="name" type="text" onFocus="if(this.value =='e.g. Bea') this.value=''" onBlur="if(this.value==''){this.value='e.g. Bea'} else {this.style.color='#000'}" value="e.g. Bea" required/>
+            <br>
+        
+           
+            
+            <h2>Now, let's get creative, describe your kitty:</h2>
+            <h3>Kitty's Name:</h3>
+            <label for="kitty-name"></label>
+            <input  id="kitty-name" type="text" onFocus="if(this.value =='e.g. Marshmallow') this.value=''" onBlur="if(this.value==''){this.value='e.g. Marshmallow'} else {this.style.color='#000'}" value="e.g. Marshmallow" required/>
+            <br>
+
+            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+
+            <h3>Fur Colour:</h3>
+            <div class="buttons-container">
+                <div class="fur-buttons">
+                    <input type="radio" name="fur" required>
+                    <label for="fur"><img src="./media/img/black-white-fur.jpg" class="fur-pics"></label>
+                </div>
+                
+                <div class="fur-buttons">
+                    <input type="radio" name="fur" required>
+                    <label for="fur"><img src="./media/img/ginger-fur.jpg" class="fur-pics"></label>
+                </div>
+                <div class="fur-buttons">
+                    <input type="radio" name="fur" required>
+                    <label for="fur"><img src="./media/img/gray-fur.jpg" class="fur-pics"></label>
+                </div>
+                <div class="fur-buttons">
+                    <input type="radio" name="fur" required>
+                    <label for="fur"><img src="./media/img/striped-fur.jpg" class="fur-pics"></label>
+                </div>
+                <div class="fur-buttons">
+                    <input type="radio" name="fur" required>
+                    <label for="fur"><img src="./media/img/ginger-white-futr.jpg" class="fur-pics"></label>
+                </div>
+            </div>
+            <br>
+            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+
+            <h3>Hobby:</h3>
+            <label for="hobby"></label>
+            <input id="hobby" value="e.g. chasing lasers" type="text" onFocus="if(this.value =='e.g. chasing lasers') this.value=''" onBlur="if(this.value==''){this.value='e.g. chasing lasers'} else {this.style.color='#000'}" value="e.g. chasing lasers"/>
+            <br>
+            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+            <h3>Favourite sleeping spot:</h3>
+            <p>(include preposition - 'in','on','under', etc)</p>
+            <label for="sleep"></label>
+            <input name="sleep" id="sleep" type="text" onFocus="if(this.value =='e.g. in the laundry basket') this.value=''" onBlur="if(this.value==''){this.value='e.g. in the laundry basket'} else {this.style.color='#000'}" value="e.g. in the laundry basket"/>
+            <br>
+            
+            <input type="submit" value="GET ME MY KITTY!">
+           
+        </form>
+    </div>
+</body>
+</html>

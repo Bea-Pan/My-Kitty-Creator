@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(./media/img/cats-paw-pattern.jpg);
+    background-position-y: center;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    color: #4d3119;
+}
+
+.form-container{
+    border: solid 10px #d38047;
+    
+    /* background-color: #ffbda8; */
+    background-color: #ffccc3;
+    height: 85%;
+    width: 60%;
+    padding-bottom: 1rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    text-align: center;
+    overflow: auto;
+}
+
+.lang span{
+    margin-right: 0.3rem;
+    font-size: smaller;
+}
+
+.lang span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1{
+    margin-top: 0.6rem;
+}
+
+h2 {
+    
+    margin-bottom: 0;
+}
+
+
+h3 {
+    margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+p {
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.buttons-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    justify-content: space-evenly;
+}
+
+.fur-buttons{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 1rem;
+    
+}
+
+.fur-pics{
+    height:60px;
+    width: 100px;
+    border:  #d38047 5px solid;
+}
+
+.cat-paw{
+    width: 10px;
+    height: auto;
+    padding-top: 0.6rem;
+    margin-bottom: 0;
+    color:#4d3119;
+}
+
+input{
+    padding: 0.3rem;
+    margin-top: 0.2rem;
+    background-color: #fcefe5;
+    border: #d38047 solid 2px;
+}
+
+input[type=text]{
+    color: #b3b3b3;
+}
+
+input[type=text]:focus{
+    color:#000;
+}
+
+input[name="fur"]{
+    accent-color: #d38047;
+}
+
+
+input[type=submit]{
+    background-color: #d38047 ;
+    color:#fcefe5;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top:0.6rem;
+}
+
+input[type=submit]:hover{
+    background-color: #f7aa58;
+}
+
+/*MEDIA QUERIES*/
+/* MOBILE */
+@media only screen and (max-width:700px){
+    body {
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3{
+        font-size: 1.1rem;
+    }
+
+    .form-container{
+        width: 85%;
+    }
+
+    .fur-pics{
+        height:80px;
+        width: 100px;
+    }
+
+    .buttons-container{
+        justify-content: center;
+    }
+
+}
+
+/* TABLET */
+
+@media only screen and (max-width:1024px) and (min-width: 700px){
+    .form-container{
+        width: 80%;
+    }
+
+  
+
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1024px) and (max-width: 2000px) {
+
+}
+
+/*SUPER WIDE SCREEN*/
+@media only screen and (min-width: 2001px){
+    
+
+}

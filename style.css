@@ -191,6 +191,10 @@ input[placeholder], [placeholder], *[placeholder] {
         width: 100%;
     }
 
+    #kitty-gif, #white-cat{
+       max-width:20rem;
+    }
+
 }
 
 /* TABLET */

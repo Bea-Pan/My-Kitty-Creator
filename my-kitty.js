@@ -22,19 +22,19 @@ const furComment = words.get('fur');
 const title = `<h1>Meet <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${kittyName},</span> the kitty you have created:`;
 
 // the crazy-cat-gif which will come under title
-const blackAndWhiteGif = `<img src="./media/gif/black-and-white-cat.gif" alt="white-and-black-cat-gif" style="border: #d38047 solid 5px; width:25rem; margin: 1rem">`;
+const blackAndWhiteGif = `<img src="./media/gif/black-and-white-cat.gif" alt="black and white gif" style="border: #d38047 solid 5px; width:25rem; margin: 1rem">`;
 
-const gingerGif = `<img src="./media/gif/ginger-cat.gif" alt="ginger-cat-gif" style="border: #d38047 solid 5px; width:21.875rem">`;
+const gingerGif = `<img src="./media/gif/ginger-cat.gif" alt="ginger cat gif" style="border: #d38047 solid 5px; width:21.875rem">`;
 
-const blackGif = `<img src="./media/gif/black-cat.gif" alt="black-cat-gif" style="border: #d38047 solid 5px; width:17.5rem">`;
+const blackGif = `<img src="./media/gif/black-cat.gif" alt="black cat gif" style="border: #d38047 solid 5px; width:15.5rem">`;
 
-const blueishGreyGif = `<img src="./media/gif/blueish-grey-cat.gif" alt="black-cat-gif" style="border: #d38047 solid 5px; width:25rem">`;
+const blueishGreyGif = `<img src="./media/gif/blueish-grey-cat.gif" alt="blueish=grey cat gif" style="border: #d38047 solid 5px; width:25rem">`;
 
-const stripedGif = `<img src="./media/gif/striped-cat.gif" alt="black-cat-gif" style="border: #d38047 solid 5px; width:21rem">`;
+const stripedGif = `<img src="./media/gif/striped-cat.gif" alt="stripd cat gif" style="border: #d38047 solid 5px; width:15rem">`;
 
-const gingerAndWhiteGif = `<img src="./media/gif/ginger-white-cat.gif" alt="black-cat-gif" style="border: #d38047 solid 5px; width:21rem">`;
+const gingerAndWhiteGif = `<img src="./media/gif/ginger-white-cat.gif" alt="ginger-white cat gif" style="border: #d38047 solid 5px; width:21rem">`;
 
-const whiteGif = `<img src="./media/gif/white-cat.gif" alt="black-cat-gif" style="border: #d38047 solid 5px; width:43rem">`;
+const whiteGif = `<img src="./media/gif/white-cat.gif" alt="white cat gif" id="white-cat" style="border: #d38047 solid 5px; width:42rem">`;
 
 
 // const select gif which is linked to the fur colour

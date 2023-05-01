@@ -192,9 +192,28 @@ input[placeholder], [placeholder], *[placeholder] {
     }
 
     #kitty-gif, #white-cat{
-       max-width:20rem;
+       max-width:14rem;
     }
 
+    #black-white-cat{
+        max-width:13rem;
+     }
+
+     #kitty-gif, #black-cat-crazy{
+        max-width:14rem;
+     }
+
+     #ginger-cat {
+        max-width:14rem;
+     }
+
+     #striped-cat {
+        max-width:14rem;
+     }
+
+    #ginger-white-cat{
+        max-width:14rem;
+    }
 }
 
 /* TABLET */

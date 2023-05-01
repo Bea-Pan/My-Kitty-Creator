@@ -2,9 +2,16 @@
 // Grab values from the submitted form in the URL
 const words = new URLSearchParams(window.location.search);
 
+// Cleans up and capitalizes the names of the animals
+function cleanAndCap (str){
+    if(!str) return null
+    let temp = str.trim()
+    return temp[0].toUpperCase() + temp.substring(1)
+  }
+
 // Assigning the variables with values used in the kitty-creator
-const userName = words.get('name');
-const kittyName = words.get('kitty-name');
+const userName = cleanAndCap(words.get('name'));
+const kittyName = cleanAndCap(words.get('kitty-name'));
 const hobby = words.get('hobby');
 const sleep = words.get('sleep');
 const fur = words.get('fur');
@@ -41,7 +48,7 @@ const selectFurGif = () =>{
         return blackGif
     } else if (fur === 'blueish-grey'){
         return blueishGreyGif
-    }   else if (fur === 'with-stripes'){
+    }   else if (fur === 'striped'){
         return stripedGif
     } else if (fur === 'ginger-and-white'){
         return gingerAndWhiteGif;
@@ -56,7 +63,7 @@ const selectFurGif = () =>{
 
 // The string containing HTML and text which will populate the my-kitty.html intro
 
-const intro = `<p>Meow,<br> Hello <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${userName}</span>! My name is <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${kittyName},</span> and I am purrfect - just look at me! My fur is beautiful <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${furComment}</span> (good choice, by the way - it suits me so well!) and it's just so shiny! (It takes me a good part of the day to maintain it like that).  <br>In my free time I like <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${hobby}</span> , which can be really tiring so after I've done it plenty, I usually go to sleep <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${sleep}</span>, which is ever so cozy!</p>`;
+const intro = `<p>Meow,<br> Hello <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${userName}</span>! My name is <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${kittyName},</span> and I am purrfect - just look at me! My fur is beautifully <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${furComment}</span> (good choice, by the way - it suits me so well!) and it's just so shiny! (It takes me a good part of the day to maintain it that way).  <br>In my free time I like <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${hobby}</span> , which can be really tiring so after I've done it plenty, I usually go to sleep <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${sleep}</span>, which is ever so cozy!</p>`;
 
 
 

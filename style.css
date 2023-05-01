@@ -24,13 +24,10 @@ body {
 
 .form-container{
     border: solid 10px #d38047;
-    /* background-color: #ffbda8; */
     background-color: #ffccc3;
     height: 85%;
     width: 60%;
     padding-bottom: 1rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem; */
     text-align: center;
     overflow: auto;
 }
@@ -76,7 +73,7 @@ p {
     flex-wrap: wrap;
     margin-bottom: 0;
     padding-bottom: 0;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 70%;
 }
 
@@ -149,6 +146,33 @@ input[placeholder], [placeholder], *[placeholder] {
     font-family: 'Gaegu', cursive;
     font-family: 'Gamja Flower', cursive; */
     font-family: 'Schoolbell', cursive;
+}
+/*TEST>HTML*/
+.form-container-transition{
+    border: solid 10px #d38047;
+    background-color: #ffccc3;
+    height: 85%;
+    width: 60%;
+    padding-bottom: 1rem;
+    text-align: center;
+    overflow: auto;
+    /* display: none; */
+}
+
+
+#stars {
+    position: relative;
+    z-index: 0;
+    width:auto;
+    height: 23.75rem;
+    opacity: 0.3;
+}
+
+#wand{
+    position:absolute;
+    z-index: 1;
+    width:21.875rem;
+    /* left:30%; */
 }
 
 /*MY-KITTY.HTML*/
@@ -233,6 +257,9 @@ input[placeholder], [placeholder], *[placeholder] {
         background-repeat: repeat-z;
     }
 
+    #kitty-gif, #white-cat{
+        max-width:33rem;
+     }
 }
 
 /*DESKTOP*/

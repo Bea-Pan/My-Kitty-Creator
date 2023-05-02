@@ -12,34 +12,35 @@
     <title>Build-My-Kitty🐱</title>
 </head>
 <body>
-    <div class="form-container">
-        <p class="lang">
+    <div id="form-container">
+        <p id="lang" class="lang">
             <span>EN </span>
             <span>PL </span>
             <span>ES </span>
             <span>RU </span>
         </p>
-        <h1>Create your own, customized cat!</h1>
-     
+        <h1 id="before-h1">Create your own, customized cat!</h1>
+        <!--#transition-h1 appears after onclick-->
+        <h1 id="transition-h1">Your Kitty is being generated:</h1>
         <form action="my-kitty.html" method="get">
-            <h2>First, write your name</h2>
-            <p>(So your kitty also knows who you are!)</p>
+            <h2 id="h2-1">First, write your name</h2>
+            <p id="p-1">(So your kitty also knows who you are!)</p>
             <label for="name"></label>
             <input  id="name" name="name" type="text" placeholder="e.g. Bea" required/>
             <br>
             
-            <h2>Now, let's get creative, describe your kitty:</h2>
-            <h3>Kitty's Name:</h3>
+            <h2 id="h2-2">Now, let's get creative, describe your kitty:</h2>
+            <h3 id="h3-1">Kitty's Name:</h3>
             <label for="kitty-name"></label>
             <input  id="kitty-name" name="kitty-name" type="text" placeholder="e.g. Marshmallow" required/>
             <br>
 
-            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
-            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
-            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw" id='paw-1' alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw" id='paw-2' alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw" id='paw-3' alt="">
 
-            <h3>Fur Colour:</h3>
-            <div class="buttons-container">
+            <h3 id="h3-2">Fur:</h3>
+            <div id="fur-container" class="buttons-container">
                 <div class="fur-buttons">
                     <input type="radio" name="fur" value="black-and-white" required/>
                     <label for="fur"><img src="./media/img/black-white-fur.jpg" class="fur-pics"></label>
@@ -74,27 +75,36 @@
                 </div>
             </div>
             <br>
-            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
-            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
-            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw" id='paw-4'alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw" id='paw-5' alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw" id='paw-6' alt="">
 
-            <h3>Hobby:</h3>
+            <h3 id="h3-3">Hobby:</h3>
+            <p id="p-2">(use an 'ing' ending with your verb - e.g. scratch<strong>ing)</strong></p>
             <label for="hobby"></label>
             <input id="hobby" name="hobby" placeholder="e.g. chasing lasers" type="text" required/>
             <br>
-            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
-            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
-            <img src="./media/img/cat-paw.png" class="cat-paw"alt="">
-            <h3>Favourite sleeping spot:</h3>
-            <p>(include preposition - 'in','on','under', etc)</p>
+            <img src="./media/img/cat-paw.png" class="cat-paw" id='paw-7'alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw" id='paw-8'alt="">
+            <img src="./media/img/cat-paw.png" class="cat-paw" id='paw-9'alt="">
+            <h3 id="h3-4">Favourite sleeping spot:</h3>
+            <p id="p-3">(include preposition - 'in','on','under', etc)</p>
             <label for="sleep"></label>
             <input name="sleep" id="sleep" type="text" placeholder="e.g. in the laundry basket" required/>
             <br>
+            <!--#twinkle appears after onclick-->
+            <div id="twinkle">
+                <img  src="./media/img/wand.gif" id="wand" alt="">
+                
+                <img src="./media/img/twinkle-stars.gif" id="stars" alt="">
+            </div>
             
-            <input type="submit" value="GET ME MY KITTY!">
+            <input type="button" id="next-button" value="GET ME MY KITTY!">
+
+            <input id="submit" type="submit" value="SHOW ME ALREADY!!">
            
         </form>
     </div>
- 
+    <script type="text/javascript" src="transition.js"></script>
 </body>
 </html>

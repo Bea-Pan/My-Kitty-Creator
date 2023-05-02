@@ -274,10 +274,20 @@ input[placeholder], [placeholder], *[placeholder] {
         max-width:14rem;
     }
 
-    /*Transition*/
+
+   
+}
+/* MobilE Horizonta;*/
+@media only screen and (max-height:500px){
+        /*Transition*/
+    #stars {
+       
+        max-height: 21rem;
+       
+    }
+
     #wand{
-        /* bottom: 25%;
-        right:10%; */
+        width:20rem;
     }
 }
 

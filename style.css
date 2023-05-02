@@ -205,6 +205,8 @@ input[placeholder], [placeholder], *[placeholder] {
     z-index: 1;
     width:21.875rem;
     /* left:30%; */
+    transform:translateY(0);
+    transform:translateX(-10%);
 }
 
 /*MY-KITTY.HTML*/
@@ -270,6 +272,12 @@ input[placeholder], [placeholder], *[placeholder] {
 
     #ginger-white-cat{
         max-width:14rem;
+    }
+
+    /*Transition*/
+    #wand{
+        /* bottom: 25%;
+        right:10%; */
     }
 }
 

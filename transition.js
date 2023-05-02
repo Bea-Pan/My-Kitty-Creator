@@ -24,7 +24,7 @@ function changeScreen(){
 //Appear
 
     titleKitty.style.display ='block';
-    kittyGif.style.display = 'block';
+    kittyGif.style.display = 'inline-block';
     catIntro.style.display = 'block';
     startOverButton.style.display ='inline-block'
 

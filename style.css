@@ -179,17 +179,19 @@ input[placeholder], [placeholder], *[placeholder] {
 /*Transition*/
 
 #transition-h1{
-    display:none;
-    margin-bottom: -5rem;
+    /* display:none; */
+   
     margin-top:2rem;
 }
 
+
+
 #submit {
-    display: none;
+    /* display: none; */
 }
 
 #twinkle{
-    display:none;
+    /* display:none; */
 }
 
 #stars {
@@ -210,9 +212,23 @@ input[placeholder], [placeholder], *[placeholder] {
 }
 
 /*MY-KITTY.HTML*/
+#kitty-gif{
+    display:none;
+}
+#title{
+    display: none;
+}
 #kitty-gif img{
     width: 500px;
     border: #d38047 solid 5px;
+}
+
+#intro{
+    display: none;
+}
+
+#start-over{
+    display:none;
 }
 
 

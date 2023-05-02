@@ -19,13 +19,25 @@
 <body>
     <div id="form-container">
      
+        <!--hidden-->
+        <h1 id="transition-h1">Your Kitty is being generated:</h1>
+        <div id="twinkle">
+            <img  src="./media/img/wand.gif" id="wand" alt="">
+            
+            <img src="./media/img/twinkle-stars.gif" id="stars" alt="">
+        </div>
+
+        <input id="event-bttn" type="button" value="SHOW ME ALREADY!!">
+
+        <!--appears after clicking show me already button-->
         <h1 id="title"></h1>
-        <div #kitty-gif>
-        <div id="black-and-white-gif"></div>
+        <div id="kitty-gif">
+            <div id="black-and-white-gif"></div>
         </div>
         <article id="intro"></article>
-        <a href="index.html"><input type="submit" value="GET ME ANOTHER KITTY!"></a>
+        <a href="index.html"><input type="submit" id="start-over" value="GET ME ANOTHER KITTY!"></a>
     </div>
+    <script type="text/javascript" src="transition.js"></script> 
     <script type="text/javascript" src="my-kitty.js"></script>
 </body>
 </html>

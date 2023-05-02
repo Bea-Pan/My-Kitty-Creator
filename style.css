@@ -277,17 +277,19 @@ input[placeholder], [placeholder], *[placeholder] {
 
    
 }
-/* MobilE Horizonta;*/
+/* MobilE Horizontal*/
 @media only screen and (max-height:500px){
         /*Transition*/
     #stars {
        
-        max-height: 21rem;
+        max-height: 17rem;
+        width: 24rem;
        
     }
 
     #wand{
-        width:20rem;
+        width:14rem;
+        transform:translateX(20%);
     }
 }
 

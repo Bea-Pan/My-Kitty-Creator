@@ -33,6 +33,9 @@ const submit = document.getElementById('submit');
 const twinkle = document.getElementById('twinkle')
 
 function changeScreen(){
+// fill in all fields before carrying on
+ 
+
 //Disappear
     lang.style.display = 'none';
     h1Before.style.display= 'none';
@@ -65,7 +68,8 @@ function changeScreen(){
 //Appear
     h1After.style.display = 'block';
     submit.style.display = 'inline-block';
-    twinkle.style.display = 'block'
+    twinkle.style.display = 'block';
+
 
 }
 

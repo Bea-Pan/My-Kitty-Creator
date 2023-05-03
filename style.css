@@ -160,7 +160,7 @@ input[placeholder], [placeholder], *[placeholder] {
     /* font-family: 'Crafty Girls', cursive;
     font-family: 'Gaegu', cursive;
     font-family: 'Gamja Flower', cursive; */
-    font-family: 'Schoolbell', cursive;
+    font-family: 'Schoolbell', tahoma, cursive;
 }
 /*TEST>HTML*/
 .form-container-transition{

@@ -29,7 +29,7 @@ const blackGif = `<img src="./media/gif/black-cat.gif" alt="black cat gif" id="b
 
 const blueishGreyGif = `<img src="./media/gif/blueish-grey-cat.gif" alt="blueish=grey cat gif" style="border: #d38047 solid 5px; width:25rem">`;
 
-const stripedGif = `<img src="./media/gif/striped-cat.gif" alt="stripd cat gif" id="striped-cat" style="border: #d38047 solid 5px; width:15rem">`;
+const stripedGif = `<img src="./media/gif/striped-cat.gif" alt="striped cat gif" id="striped-cat" style="border: #d38047 solid 5px; width:28rem">`;
 
 const gingerAndWhiteGif = `<img src="./media/gif/ginger-white-cat.gif" alt="ginger-white cat gif" id="ginger-white-cat" style="border: #d38047 solid 5px; width:21rem">`;
 

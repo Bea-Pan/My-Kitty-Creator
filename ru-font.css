@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: firstTimeWriting;
+    src: url(FirstTimeWriting!.ttf);
+}
+
+#intro p{
+  
+    font-weight: 700;
+    font-family: firstTimeWriting 'Schoolbell', 'Solitreo', tahoma;
+    
+}

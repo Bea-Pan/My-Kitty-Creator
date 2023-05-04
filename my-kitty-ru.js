@@ -18,7 +18,7 @@ const furComment = words.get('fur');
 
 
 // The string containing HTML and text which will populate the my-kitty.html title
-const title = `<h1>Oto <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${kittyName},</span> koteczek którego stworzyłeś ty:`;
+const title = `<h1>Это <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${kittyName},</span> котик которого ты создал:`;
 
 // the crazy-cat-gif which will come under title
 const blackAndWhiteGif = `<img src="./media/gif/black-and-white-cat.gif" id="black-white-cat" alt="black and white gif" style="border: #d38047 solid 5px; width:25rem; margin: 1rem">`;

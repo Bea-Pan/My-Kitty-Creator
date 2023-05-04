@@ -185,8 +185,6 @@ input[placeholder], [placeholder], *[placeholder] {
     margin-top:2rem;
 }
 
-
-
 #submit {
     /* display: none; */
 }
@@ -199,14 +197,14 @@ input[placeholder], [placeholder], *[placeholder] {
     position: relative;
     z-index: 0;
     width:auto;
-    height: 23.75rem;
+    height: 27rem;
     opacity: 0.3;
 }
 
 #wand{
     position:absolute;
     z-index: 1;
-    width:21.875rem;
+    width:27.875rem;
     /* left:30%; */
     transform:translateY(0);
     transform:translateX(-10%);
@@ -290,7 +288,16 @@ input[placeholder], [placeholder], *[placeholder] {
     #ginger-white-cat{
         max-width:14rem;
     }
+    #wand{
+        width: 20.875rem;
+        left:-5%; 
+    }
 
+    #stars{
+        height:22rem;
+        width: 100%;
+        object-fit: cover;
+    }
 
    
 }
@@ -298,17 +305,20 @@ input[placeholder], [placeholder], *[placeholder] {
 @media only screen and (max-height:500px){
         /*Transition*/
     #stars {
-        max-height: 17rem;
-        width: 18rem;
+        height: 12rem;
+        width: 15rem;
        
     }
 
     #wand{
-        width:14rem;
+        width:13rem;
         transform:translateX(20%);
         left:15%; 
     }
-}
+    
+    #transition-h1{
+        margin-top:1rem;
+    }
 
 /* TABLET */
 

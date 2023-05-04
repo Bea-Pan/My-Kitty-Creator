@@ -18,7 +18,8 @@ const furComment = words.get('fur');
 
 
 // The string containing HTML and text which will populate the my-kitty.html title
-const title = `<h1>Meet<span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${kittyName},</span> the kitty you have created:`;
+
+const title = `<h1>Conoce a <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${kittyName},</span> el gatito que hayas creado tú:`;
 
 // the crazy-cat-gif which will come under title
 const blackAndWhiteGif = `<img src="./media/gif/black-and-white-cat.gif" id="black-white-cat" alt="black and white gif" style="border: #d38047 solid 5px; width:25rem; margin: 1rem">`;
@@ -39,19 +40,19 @@ const whiteGif = `<img src="./media/gif/white-cat.gif" alt="white cat gif" id="w
 // const select gif which is linked to the fur colour
 
 const selectFurGif = () =>{
-    if(fur === 'black-and-white'){
+    if(fur === 'blanco-y-negro'){
         return blackAndWhiteGif;
-    } else if (fur === 'ginger'){
+    } else if (fur === 'jengibre'){
         return gingerGif;
-    } else if( fur === 'black'){
+    } else if( fur === 'negro'){
         return blackGif
     } else if (fur === 'blueish-grey'){
         return blueishGreyGif
-    }   else if (fur === 'striped'){
+    }   else if (fur === 'atigrado'){
         return stripedGif
-    } else if (fur === 'ginger-and-white'){
+    } else if (fur === 'blanco-jengibre'){
         return gingerAndWhiteGif;
-    } else if (fur === 'white'){
+    } else if (fur === 'blanco'){
         return whiteGif
     }
 }
@@ -62,7 +63,7 @@ const selectFurGif = () =>{
 
 // The string containing HTML and text which will populate the my-kitty.html intro
 
-const intro = `<p>Meow,<br> Hello <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${userName}</span>! My name is <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${kittyName},</span> and I am purrfect - just look at me! My fur is beautifully <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${furComment}</span> (good choice, by the way - it suits me so well!) and it's just so shiny! (It takes me a good part of the day to maintain it that way).  <br>In my free time I like <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${hobby}</span>, which can be really tiring so after I've done it a bunch of times, I usually go for a nap <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${sleep}</span>, which is ever so cozy!</p>`;
+const intro = `<p>Miau,<br> Hola <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${userName}</span>! Me llamo <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${kittyName},</span> y soy todo una maravilla - solo mírame! Mi pelaje es <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${furComment}</span> precioso (por cierto, es una gran elección - me queda estupendo!) Y que tan brillante que es! (Me lleva una gran parte del día para que se quedara asi.) <br>En mi tiempo libre, me encanta <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${hobby}</span>, pero eso suele ser exigente, así que cuando ya lo haya hecho un montón de veces, me tomo una siesta  <span class="word" title="id: kitty-name" style="color:#b9652d; font-weight:bold">${sleep}</span>, que es siempre tan acogedor!</p>`;
 
 
 

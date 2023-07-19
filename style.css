@@ -97,9 +97,6 @@ p {
     border:  #d38047 5px solid;
 }
 
-.fur-pics:active {
-    border:  red 15px solid;
-}
 
 .cat-paw{
     width: 10px;
@@ -291,6 +288,12 @@ input[placeholder], [placeholder], *[placeholder] {
     .fur-pics{
         height:80px;
         width: 100px;
+    }
+
+    input[type=radio]:checked +label{
+        border: 5px #4d3119 solid;
+        height:89px;
+        width: 109px;
     }
 
     .buttons-container{

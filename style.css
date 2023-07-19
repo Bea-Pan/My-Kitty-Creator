@@ -86,14 +86,19 @@ p {
 .fur-buttons{
     display: flex;
     flex-direction: column-reverse;
-    margin: 0 1rem;
-    
+    margin: 0.5rem 0.5rem;
+    position: relative;
 }
+
 
 .fur-pics{
     height:80px;
     width: 120px;
     border:  #d38047 5px solid;
+}
+
+.fur-pics:active {
+    border:  red 15px solid;
 }
 
 .cat-paw{
@@ -115,7 +120,26 @@ input{
 
 input[type=radio]{
     width: auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin:0;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0;
 }
+
+input[type=radio]:checked +label{
+    border: 5px #4d3119 solid;
+    height:90px;
+    width: 130px;
+}
+
+input[type=radio]:checked +label:before{
+    opacity: 0.5;
+    
+}
+
 
 input[type=text]{
     color: #b3b3b3;
